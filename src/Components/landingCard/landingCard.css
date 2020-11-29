@@ -1,0 +1,22 @@
+.workButton{
+  display: flex;
+  margin: 10px auto;
+  position: relative;
+  bottom: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+  background-color: #6d120f;
+  color: white
+}
+.descriptionText{
+  height: 68%;
+  color: white;
+  font-size: 25px;
+}
+.name{
+  color: white;
+  font-size: 70px;
+  font-family: 'Texturina', serif;
+}

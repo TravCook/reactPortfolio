@@ -1,0 +1,44 @@
+.languages{
+  width: 20%;
+  height: 80%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.technologies{
+  width: 20%;
+  height: 80%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.asAPerson{
+  width: 20%;
+  height: 80%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.checked {
+  color: orange;
+}
+.item{
+  padding: 15px
+}
+.listHeader{
+  margin: 25px;
+
+}
+.header{
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: 4px;
+  margin: 0px;
+  padding: 5px
+}
+.techItem{
+  padding: 25px
+}

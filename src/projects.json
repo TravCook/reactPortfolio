@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Playlist-Builder",
+    "description": "This web-app uses the Deezer music API to allow users to create their own playlists",
+    "githublink": "https://noracurcio.github.io/Music-API-Group-Project/",
+    "deployedlink" : "",
+    "screenshot": "https://i.ibb.co/XJFk6Hm/MUSIC-API.png"
+  },
+  {
+    "id": 2,
+    "name": "Employee Manager",
+    "description": "This is a simple CLI application which allows users to manage their database of employees through SQL and node.js",
+    "githublink": "https://github.com/TravCook/employeeManager",
+    "deployedlink" : "",
+    "screenshot": "https://i.ibb.co/Yc6tNBx/Employee-Manager.png"
+  },
+  {
+    "id": 3,
+    "name": "Readme Generator",
+    "description": "This is another CLI application that I have made, it allows users to create a Readme for their newly developed application. The application prompts the user with a series of questions, and creates a brand new, markdown-supported, Readme file.",
+    "githublink": "https://github.com/TravCook/readmeGen",
+    "deployedlink" : "",
+    "screenshot": "https://i.ibb.co/DVqVRpT/Demo-Questions.gif"
+  },
+  {
+    "id": 4,
+    "name": "Campify",
+    "description": "This web-app uses the RIDB API to gather information about camping, hiking, and other outdoor activities near the user's current location(using google geolocation API)",
+    "githublink": "https://github.com/andreaives/campify",
+    "deployedlink" : "",
+    "screenshot": "https://i.ibb.co/vdLn4y1/campify.png"
+  },
+  {
+    "id": 5,
+    "name": "Employee Summary App",
+    "description": "This is a CLI app that allows users to add employees to their database through prompts, and then be able to see all their employees rendered onto the webpage that is created.",
+    "githublink": "https://github.com/TravCook/EmployeeSummary",
+    "deployedlink" : "",
+    "screenshot": "https://i.ibb.co/w0QFPxw/employee-Summary.png"
+  },
+  {
+    "id": 6,
+    "name": "Group Project 3",
+    "description": "This app has yet to be developed",
+    "githublink": " ",
+    "deployedlink" : "",
+    "screenshot": " "
+  }
+]

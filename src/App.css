@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #0c141f;
 }
 
 .App-logo {
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+.headerRow{
+  width: 100%
+}
+.fill-window {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("./public/backgroundImg.jpg");
+}
+.mainBody{
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
 }

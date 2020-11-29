@@ -1,0 +1,39 @@
+.navbar{
+  padding: 15px;
+  background-color: #0c141f;
+  width: 100%;
+  margin-left: 0;
+}
+.btn-lg{
+  font-size: 25px;
+  background-color:#6d120f;
+  color: #007bff;
+}
+.dropdown-toggle{
+  font-family: 'Roboto Slab', serif;
+}
+.navbarContainer{
+  width: 100%
+}
+.dropdown-menu{
+  background-color:#6d120f;
+  color: white
+}
+.dropdown-item{
+  background-color:#6d120f;
+  color: white
+}
+.navButton{
+  width: 15%;
+  height: 60%;
+  margin-left: 16px;
+  margin-right: 16px;
+  background-color: #6c130f;
+}
+.buttons{
+  width: 70%;
+  float: right
+}
+.dropdown{
+  margin-left:60px
+}

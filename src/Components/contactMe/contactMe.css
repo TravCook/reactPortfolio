@@ -1,0 +1,14 @@
+.jumbotron{
+  width: 50%;
+  height: 55%;
+  align-self: center;
+  margin-bottom: 150px;
+  background-color: #9caec2;
+  padding-top: 16px;
+}
+.contactHead{
+  font-size: 25px
+}
+.contactBtn{
+  margin: 35px
+}
