@@ -5,7 +5,7 @@ function Navbar(){
   return (
     <nav className="navbar">
       <div className="nav-item dropdown">
-        <button className="btn-lg nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button className="btn-lg nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           NAVIGATION
         </button>
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

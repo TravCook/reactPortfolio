@@ -112,7 +112,6 @@ function aboutMe(){
           <li>Run the Jewels</li>
           <li>Heavy Metal</li>
           <li>NPR</li>
-          <li>Sports Highlights</li>
         </ul>
       </div>
     </>
