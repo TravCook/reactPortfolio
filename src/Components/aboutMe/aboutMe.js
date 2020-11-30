@@ -3,7 +3,7 @@ import "./aboutMe.css"
 
 function aboutMe(){
   return(
-    <>
+    <div className="card-deck">
       <div className="card languages">
         <h1 className="header">Languages</h1>
         <h2 className="listHeader">Front End</h2>
@@ -16,11 +16,11 @@ function aboutMe(){
               <span className="fa fa-star checked"></span>
             </div>
             <div className = "item">CSS
+              <span className="fa fa-star "></span>
+              <span className="fa fa-star "></span>
               <span className="fa fa-star checked"></span>
               <span className="fa fa-star checked"></span>
               <span className="fa fa-star checked"></span>
-              <span className="fa fa-star"></span>
-              <span className="fa fa-star"></span>
             </div>
           </div>
         <h2 className="listHeader">Back End</h2>
@@ -33,11 +33,11 @@ function aboutMe(){
               <span className="fa fa-star checked"></span>
             </div>
             <div className = "item">SQL
+              <span className="fa fa-star "></span>
+              <span className="fa fa-star "></span>
               <span className="fa fa-star checked"></span>
               <span className="fa fa-star checked"></span>
               <span className="fa fa-star checked"></span>
-              <span className="fa fa-star"></span>
-              <span className="fa fa-star"></span>
             </div>
             <div className = "item">Node.js
               <span className="fa fa-star checked"></span>
@@ -47,11 +47,11 @@ function aboutMe(){
               <span className="fa fa-star checked"></span>
             </div>
             <div className = "item">Express
+              <span className="fa fa-star "></span>
               <span className="fa fa-star checked"></span>
               <span className="fa fa-star checked"></span>
               <span className="fa fa-star checked"></span>
               <span className="fa fa-star checked"></span>
-              <span className="fa fa-star"></span>
             </div>
             <div className = "item">NoSql
               <span className="fa fa-star checked"></span>
@@ -114,7 +114,7 @@ function aboutMe(){
           <li>NPR</li>
         </ul>
       </div>
-    </>
+    </div>
   )
 }
 export default aboutMe

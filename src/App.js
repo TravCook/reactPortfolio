@@ -10,14 +10,14 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 function App(){
   return (
     <Router>
-      <div className="App fill-window">
+      <div className="contianer-fluid app">
         <Navbar />
-        <div className="mainBody row ">
-          <Route exact path="/" component = { LandingCard } />
-          <Route exact path="/work" component = { ProjectGrid } />
-          <Route exact path="/aboutme" component = { AboutMe } />
-          <Route exact path="/contact" component ={ ContactMe } />
-        </div>
+        <>
+          <Route  exact path="/" component = { LandingCard } />
+          <Route  exact path="/work" component = { ProjectGrid } />
+          <Route  exact path="/aboutme" component = { AboutMe } />
+          <Route  exact path="/contact" component ={ ContactMe } />
+        </>
       </div>
     </Router>
   );

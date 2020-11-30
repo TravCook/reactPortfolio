@@ -1,36 +1,12 @@
-.languages{
-  width: 20%;
-  height: 80%;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  margin-left: 75px;
-  margin-right: 75px;
-}
-.technologies{
-  width: 20%;
-  height: 80%;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  margin-left: 75px;
-  margin-right: 75px;
-}
-.asAPerson{
-  width: 20%;
-  height: 80%;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  margin-left: 75px;
-  margin-right: 75px;
-}
 .checked {
   color: orange;
 }
 .item{
-  padding: 15px
+  padding: 15px;
+  font-size: 25px
 }
 .listHeader{
   margin: 25px;
-
 }
 .header{
   border-bottom-style: solid;
@@ -40,5 +16,12 @@
   padding: 5px
 }
 .techItem{
-  padding: 25px
+  padding: 25px;
+  font-size: 25px;
+}
+.fa-star{
+  padding: 5px;
+  border-width: 2px;
+  border-color: black;
+  float: right
 }
