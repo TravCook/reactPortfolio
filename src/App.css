@@ -1,5 +1,10 @@
 body {
-  background-image: url("./public/backgroundImg.jpg");
+  background-image: url("./public/backgroundIMAGE.jpg");
+}
+@media (max-width: 400px){
+  body{
+    background-image: url("./public/mobileBackground.jpg")
+  }
 }
 .App-logo {
   height: 40vmin;

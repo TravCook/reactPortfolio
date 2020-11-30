@@ -4,6 +4,7 @@
   grid-template-rows: auto auto;
   grid-gap: 35px;
   align-content: center;
+  margin-top: 2%;
 }
 @media (max-width:1200px){
 .projectsGrid{

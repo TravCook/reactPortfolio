@@ -1,3 +1,12 @@
 .card{
   background-color: #8da1b9
 }
+.projectName{
+  font-size: 26px;
+}
+.sShot{
+  height: 180px
+}
+.projectDesc{
+  height: 41%
+}
