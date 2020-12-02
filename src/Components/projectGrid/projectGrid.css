@@ -5,6 +5,7 @@
   grid-gap: 35px;
   align-content: center;
   margin-top: 2%;
+  margin: 0 auto
 }
 @media (max-width:1200px){
 .projectsGrid{
@@ -24,3 +25,7 @@
     align-content: center;
   }
   }
+
+.app{
+  position: relative;
+}

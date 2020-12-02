@@ -1,33 +1,37 @@
-.navbar{
-  padding: 15px;
+ .navbar{
   background-color: #0c141f;
   width: 100%;
 }
-.btn-lg{
-  font-size: large;
-  background-color:#6d120f;
-  color: #007bff;
+.row{
+  width: 100%
 }
-.dropdown-toggle{
-  font-family: 'Roboto Slab', serif;
-}
-.dropdown-menu{
-  background-color:#6d120f;
+.name{
   color: white;
+  font-size: 28px;
+  font-family: 'Texturina', serif;
+  text-align: right;
 }
-.dropdown-item{
-  background-color:#6d120f;
-  color: white
+.mediaButtons{
+  text-align: center;
 }
-.navButton{
-  width: 15%;
-  height: 60%;
-  background-color: #6c130f;
-  font-size: 30px;
-  content: "Navigation"
+.fa{
+  margin: 0px 10px;
+  border-radius: '50%'
 }
-.buttons{
-  width: 100%;
-  float: right
+@media (max-width: 420px){
+  .name{
+    font-size: 22px
+  }
+  .fa{
+    margin: 1px 1px
+  }
+  .mediaButtons{
+    padding: 2px
+  }
+  .ddButton{
+    margin-top: 24%
+  }
+  
 }
+
 

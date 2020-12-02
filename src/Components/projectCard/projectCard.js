@@ -1,5 +1,6 @@
 import React from "react"
 import "./projectCard.css"
+import Button from "react-bootstrap/Button"
 
 function ProjectCard(props){
   return(
@@ -7,7 +8,7 @@ function ProjectCard(props){
       <img className="sShot" src={props.screenshot} alt="screenshot of this project"></img>
       <div className="projectName">{props.name}</div>
       <div className="projectDesc">{props.description}</div>
-      <a as="button" rel="noreferrer" className="linkButton btn btn-lg" target="_blank" href={props.githublink}>Link to Github Repository</a>
+      <Button rel="noreferrer" className="linkButton" target="_blank" href={props.githublink}>Link to Github Repository</Button>
     </div>
   )
 }

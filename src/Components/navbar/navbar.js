@@ -1,24 +1,37 @@
 import React from "react"
 import "./navbar.css"
+import Navbar from "react-bootstrap/Navbar"
+import Button from "react-bootstrap/Button"
+import DropdownButton from "react-bootstrap/DropdownButton"
+import Dropdown from "react-bootstrap/Dropdown"
+import Container from "react-bootstrap/Container"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 
-function Navbar(){
 
+function Navigation(){
   return (
-    <nav className="navbar">
-        <button className="btn-lg nav-link dropdown-toggle col-4" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          MENU
-        </button>
-        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a className="dropdown-item" href="/">Home</a>
-          <a className="dropdown-item" href="/work">Projects</a>
-          <a className="dropdown-item" href="/aboutme">About Me</a>
-          <a className="dropdown-item" href="/contact">Contact Me</a>
-        </div>
-          <a as="button" rel="noreferrer" target="_blank" href="https://github.com/TravCook" className="fa fa-github navButton btn-lg"></a>
-          <a as="button" rel="noreferrer" target="_blank" href="https://twitter.com/spillthe_TCook" className="fa fa-twitter navButton btn-lg"></a>
-          <a as="button" rel="noreferrer" target="_blank" href="https://www.instagram.com/smokeybear970/" className="fa fa-instagram navButton btn-lg"></a>
-          <a as="button" rel="noreferrer" target="_blank" href="https://linkedin.com/in/travis-cook-01292a1b9" className="fa fa-linkedin navButton btn-lg"></a>
-    </nav>
+    <Container fluid="true">
+    <Navbar>
+      <Row>
+        <Col className="dropdown">
+          <DropdownButton className="ddButton" id="dropdown-basic-button" title="Menu">
+          <Dropdown.Item href="/work">Projects</Dropdown.Item>
+          <Dropdown.Item href="/aboutme">About Me</Dropdown.Item>
+          <Dropdown.Item href="/contact">Contact Me</Dropdown.Item>
+          </DropdownButton> 
+        </Col>
+        <Col className="mediaButtons">
+          <Button rel="noreferrer" href="https://github.com/travcook" target="_blank" className ="fa fa-github"></Button>
+          <Button rel="noreferrer" href="https://www.linkedin.com/in/travis-cook93/" target="_blank"className ="fa fa-linkedin"></Button>
+          <Button rel="noreferrer" href="https://twitter.com/spillthe_TCook" target="_blank"className ="fa fa-twitter"></Button>
+        </Col>
+        <Col className="name">
+          Travis M. Cook
+        </Col>
+      </Row>
+    </Navbar >
+    </Container>
   )
 }
-export default Navbar
+export default Navigation

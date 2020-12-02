@@ -10,3 +10,11 @@
 .projectDesc{
   height: 41%
 }
+.linkButton{
+  font-family: 'Roboto Slab', serif;
+  float: left;
+  font-size: large;
+  background-color:#524c4c;
+  color: #14b1ff;
+}
+
