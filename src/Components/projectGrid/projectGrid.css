@@ -4,8 +4,8 @@
   grid-template-rows: auto auto;
   grid-gap: 35px;
   align-content: center;
-  margin-top: 2%;
-  margin: 0 auto
+  /* margin-top: 2%;
+  margin: 0 auto */
 }
 @media (max-width:1200px){
 .projectsGrid{
@@ -27,5 +27,5 @@
   }
 
 .app{
-  position: relative;
+  margin: 4%
 }

@@ -16,24 +16,25 @@
   padding: 5px
 }
 .techItem{
-  padding: 25px;
+  padding: 23px;
   font-size: 25px;
 }
 .fa-star{
-  padding: 5px;
+  margin: 1px;
   border-width: 2px;
   border-color: black;
   float: right
 }
-.languages{
-  width: 20%;
+
+
+.centerCard{
+  margin: auto;
   background-color: #8da1b99d;
 }
-.technologies{
-  width: 20%;
-  background-color: #8da1b99d;
+.card-body{
+  padding: 10px
 }
-.asAPerson{
-  width: 20%;
-  background-color: #8da1b99d;
+.item{
+  padding-left: 2px;
+  padding-right: 2px;
 }
