@@ -5,7 +5,7 @@
     "description": "This web-app uses the Deezer music API to allow users to create their own playlists",
     "githublink": "https://noracurcio.github.io/Music-API-Group-Project/",
     "deployedlink" : "",
-    "screenshot": "https://i.ibb.co/XJFk6Hm/MUSIC-API.png"
+    "link": "https://noracurcio.github.io/Music-API-Group-Project/"
   },
   {
     "id": 2,
@@ -29,22 +29,6 @@
     "description": "This web-app uses the RIDB API to gather information about camping, hiking, and other outdoor activities near the user's current location(using google geolocation API)",
     "githublink": "https://github.com/andreaives/campify",
     "deployedlink" : "",
-    "screenshot": "https://i.ibb.co/vdLn4y1/campify.png"
-  },
-  {
-    "id": 5,
-    "name": "Employee Summary App",
-    "description": "This is a CLI app that allows users to add employees to their database through prompts, and then be able to see all their employees rendered onto the webpage that is created.",
-    "githublink": "https://github.com/TravCook/EmployeeSummary",
-    "deployedlink" : "",
-    "screenshot": "https://i.ibb.co/w0QFPxw/employee-Summary.png"
-  },
-  {
-    "id": 6,
-    "name": "Group Project 3",
-    "description": "This app has yet to be developed",
-    "githublink": " ",
-    "deployedlink" : "",
-    "screenshot": " "
+    "link": "https://campifygroupproject.herokuapp.com/"
   }
 ]

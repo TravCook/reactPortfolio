@@ -5,11 +5,11 @@
   font-size: 26px;
 }
 .sShot{
-  height: 180px
+  height: 250px
 }
-.projectDesc{
+/* .projectDesc{
   height: 41%
-}
+} */
 .linkButton{
   font-family: 'Roboto Slab', serif;
   float: left;

@@ -106,9 +106,9 @@ function aboutMe(){
     <Card className="centerCard" style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title style={{fontSize: '45px'}}>
-          Who is Travis Cook?
+          Who am I?
         </Card.Title>
-        <Card.Text>
+        <Card.Text className="aboutMe">
        <h3>What I enjoy coding</h3>
          <ul>
            <li>Back-end functionality</li>

@@ -9,7 +9,7 @@ class ProjectGrid extends React.Component{
   }
   render(){
     return(
-      <div className="projectsGrid container">
+      <div className="projectsGrid container-fluid">
         {this.state.projectArr.map(project =>  (<ProjectCard key={project.id} {...project}  /> ))}
       </div>
     )

@@ -9,8 +9,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "react-bootstrap"
 
-class App extends Component{
-  render(){
+function App(){
     return (
       <Router>
         <Navbar />
@@ -24,7 +23,6 @@ class App extends Component{
         </div>
       </Router>
     );
-  }
 }
 
 

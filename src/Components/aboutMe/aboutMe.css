@@ -25,8 +25,9 @@
   border-color: black;
   float: right
 }
-
-
+.card-body{
+  height: 100%
+}
 .centerCard{
   margin: auto;
   background-color: #8da1b99d;
@@ -37,4 +38,7 @@
 .item{
   padding-left: 2px;
   padding-right: 2px;
+}
+.aboutMe{
+  font-size: 16px;
 }
