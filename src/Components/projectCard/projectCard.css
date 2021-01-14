@@ -1,20 +1,29 @@
 .card{
-  background-color: #8da1b9
+  background-color: #8da1b9;
+  text-align: center;
 }
 .projectName{
   font-size: 26px;
+  height: 10%
 }
 .sShot{
-  height: 250px
+  height: 300px;
 }
-/* .projectDesc{
-  height: 41%
-} */
-.linkButton{
+.projectDesc{
+  height: 10%;
+}
+.Button{
   font-family: 'Roboto Slab', serif;
-  float: left;
   font-size: large;
   background-color:#524c4c;
   color: #14b1ff;
+  width: 50%;
 }
+.linkButton{
+  float: 'left'
+}
+.detailButton{
+  float: right
+}
+
 

@@ -11,12 +11,18 @@
   font-family: 'Texturina', serif;
   text-align: right;
 }
+.brandName{
+  color: white
+}
 .mediaButtons{
   text-align: center;
 }
 .fa{
   margin: 0px 10px;
   border-radius: '50%'
+}
+a:visited{
+  color:white
 }
 @media (max-width: 420px){
   .name{

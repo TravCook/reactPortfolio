@@ -8,8 +8,8 @@ import Row from "react-bootstrap/Row"
 function aboutMe(){
   return(
   <Row className="container-fluid">
-  <Col>
-    <Card className="centerCard" style={{ width: '18rem' }}>
+  <Col className="abtCol">
+    <Card className="centerCard" style={{ width: '80%' }}>
       <Card.Body>
         <Card.Title style={{fontSize: '45px'}}>
           Languages
@@ -82,7 +82,7 @@ function aboutMe(){
     </Card>
   </Col>
   <Col className="abtCol">
-    <Card className="centerCard" style={{ width: '18rem' }}>
+    <Card className="centerCard" style={{ width: '80%' }}>
       <Card.Body>
         <Card.Title style={{fontSize: '45px'}}>
           Technologies
@@ -103,7 +103,7 @@ function aboutMe(){
     </Card>
   </Col>
   <Col className="abtCol">
-    <Card className="centerCard" style={{ width: '18rem' }}>
+    <Card className="centerCard" style={{ width: '80%' }}>
       <Card.Body>
         <Card.Title style={{fontSize: '45px'}}>
           Who am I?

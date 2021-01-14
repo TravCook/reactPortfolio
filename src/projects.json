@@ -5,7 +5,8 @@
     "description": "This web-app uses the Deezer music API to allow users to create their own playlists",
     "githublink": "https://noracurcio.github.io/Music-API-Group-Project/",
     "deployedlink" : "",
-    "link": "https://noracurcio.github.io/Music-API-Group-Project/"
+    "link": "https://noracurcio.github.io/Music-API-Group-Project/",
+    "url": "/work/plbuilder"
   },
   {
     "id": 2,
@@ -13,22 +14,24 @@
     "description": "This is a simple CLI application which allows users to manage their database of employees through SQL and node.js",
     "githublink": "https://github.com/TravCook/employeeManager",
     "deployedlink" : "",
-    "screenshot": "https://i.ibb.co/Yc6tNBx/Employee-Manager.png"
+    "link": "travcook.herokuapp.com",
+    "url": ""
   },
   {
     "id": 3,
-    "name": "Readme Generator",
-    "description": "This is another CLI application that I have made, it allows users to create a Readme for their newly developed application. The application prompts the user with a series of questions, and creates a brand new, markdown-supported, Readme file.",
+    "name": "Celestial Navigator",
+    "description": "Allows users to check their horoscope and get readings for their future.",
     "githublink": "https://github.com/TravCook/readmeGen",
-    "deployedlink" : "",
-    "screenshot": "https://i.ibb.co/DVqVRpT/Demo-Questions.gif"
+    "link" : "https://arcane-lake-53566.herokuapp.com/profile",
+    "url": "work/celestnav"
   },
   {
     "id": 4,
     "name": "Campify",
-    "description": "This web-app uses the RIDB API to gather information about camping, hiking, and other outdoor activities near the user's current location(using google geolocation API)",
+    "description": "This web-app uses the RIDB API to gather information about camping, hiking, and other outdoor activities.",
     "githublink": "https://github.com/andreaives/campify",
     "deployedlink" : "",
-    "link": "https://campifygroupproject.herokuapp.com/"
+    "link": "https://campifygroupproject.herokuapp.com/",
+    "url": "/work/campify"
   }
 ]
