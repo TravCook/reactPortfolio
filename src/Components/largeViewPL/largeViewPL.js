@@ -20,11 +20,11 @@ class largeViewPL extends React.Component{
           </Col>
           <Col className="infoCol">
             <Row>
-              <Card>
+              <Card className="width">
               <h1>Project Description</h1>
               <p>{this.state.projectArr[0].description}</p>
               </Card>
-              <Card>
+              <Card className="width">
                 <h1>Project Contributions</h1>
                 <ul>
                   <li>My main work was on the search funtion (finding the API, Getting queries working, rendering results)</li>
@@ -33,17 +33,17 @@ class largeViewPL extends React.Component{
                   <li>Added the export function to the web app</li>
                 </ul>
               </Card>
-              <Card>
+              <Card className="width">
                 <h1>Contributors</h1>
                 <ul>
                   <li>Nora Curio (github: https://github.com/noracurcio)</li>
                   <li>Madeline Cowell (github: https://github.com/MadelineCowell)</li>
                   <li>Devon Phillips (github: https://github.com/devonp702)</li>
-                  <li>Ryan Whittaker (github: https://github.com/ryanwit)</li>
+                  <li>Ryan Whitherspoon (github: https://github.com/ryanwit)</li>
                   <li>Colby Trahan (github: https://github.com/ctrahan94)</li>
                 </ul>
               </Card>
-              <Card>
+              <Card className="width">
                 <h1>Technologies Utilised</h1>
                 <ul>
                   <li>HTML5, Javascript, CSS is what we used to build the main layout and functionality of our site</li>

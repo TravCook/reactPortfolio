@@ -21,9 +21,6 @@
   margin: 0px 10px;
   border-radius: '50%'
 }
-a:visited{
-  color:white
-}
 @media (max-width: 420px){
   .name{
     font-size: 22px

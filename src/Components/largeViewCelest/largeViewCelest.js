@@ -27,28 +27,28 @@ class largeViewCelest extends React.Component{
               <Card>
                 <h1>Project Contributions</h1>
                 <ul>
-                  <li>My main work was on the search funtion (finding the API, Getting queries working, rendering results)</li>
-                  <li>Worked on functionality of adding songs to your current playlist</li>
-                  <li>Worked on functionality of getting song to play</li>
-                  <li>Added the export function to the web app</li>
+                  <li>My main work was on UI and UX for the app as well as the navbar and routing</li>
+                  <li>Assisted in finding the right APIs for us to use</li>
+                  <li>Helped in getting Auth0 integrated and running on the app</li>
+                  <li>Connected the journal display to the backend mongoDB</li>
                 </ul>
               </Card>
               <Card>
                 <h1>Contributors</h1>
                 <ul>
-                  <li>Nora Curio (github: https://github.com/noracurcio)</li>
+                  <li>Mark Brazee (github: https://github.com/MarkBrazee)</li>
                   <li>Madeline Cowell (github: https://github.com/MadelineCowell)</li>
                   <li>Devon Phillips (github: https://github.com/devonp702)</li>
-                  <li>Ryan Whittaker (github: https://github.com/ryanwit)</li>
-                  <li>Colby Trahan (github: https://github.com/ctrahan94)</li>
+                  <li>Andy Ives (github: https://github.com/andreaives)</li>
+                  <li>Brendon Hart (github: https://github.com/hartbt)</li>
                 </ul>
               </Card>
               <Card>
                 <h1>Technologies Utilised</h1>
                 <ul>
-                  <li>HTML5, Javascript, CSS is what we used to build the main layout and functionality of our site</li>
-                  <li>Used the deezer REST api and ajax to make the requests</li>
-                  <li>typeit.JS</li>
+                  <li>Our UI for the site is built on React, with underlying Javascript</li>
+                  <li>Used a combination of CSS and SASS for our styling, along with react-bootstrap</li>
+                  <li>MongoDB backend for storing user profiles and journal entries</li>
                 </ul>
               </Card>
             </Row>
