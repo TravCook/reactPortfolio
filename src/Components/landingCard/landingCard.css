@@ -4,6 +4,8 @@
   border-radius: 10px;
   margin-top: 5%;
   font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .descriptionText{
   width: 100%;
@@ -11,9 +13,16 @@
   color: white;
   font-size: 30px;
 }
-.landing{
+.btnRow{
   text-align: center;
-  width: 60%;
+}
+.landing{
+  width: 100%;
+}
+.picture{
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
 }
 @media (max-width: 400px){
   .landing{
@@ -28,4 +37,5 @@
   .workButton{
     width: 100%
   }
+
 } 

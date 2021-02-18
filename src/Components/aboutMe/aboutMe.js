@@ -9,7 +9,7 @@ function aboutMe(){
   return(
   <Row className="container-fluid">
   <Col className="abtCol">
-    <Card className="centerCard" style={{ width: '80%' }}>
+    <Card className="centerCard languages" style={{ width: '80%' }}>
       <Card.Body>
         <Card.Title style={{fontSize: '45px'}}>
           Languages
@@ -27,6 +27,13 @@ function aboutMe(){
            <div className = "item">CSS
              <span className="fa fa-star "></span>
              <span className="fa fa-star "></span>
+             <span className="fa fa-star checked"></span>
+             <span className="fa fa-star checked"></span>
+             <span className="fa fa-star checked"></span>
+           </div>
+           <div className = "item">React
+             <span className="fa fa-star checked"></span>
+             <span className="fa fa-star checked"></span>
              <span className="fa fa-star checked"></span>
              <span className="fa fa-star checked"></span>
              <span className="fa fa-star checked"></span>
@@ -69,20 +76,13 @@ function aboutMe(){
              <span className="fa fa-star checked"></span>
              <span className="fa fa-star checked"></span>
            </div>
-           <div className = "item">React
-             <span className="fa fa-star checked"></span>
-             <span className="fa fa-star checked"></span>
-             <span className="fa fa-star checked"></span>
-             <span className="fa fa-star checked"></span>
-             <span className="fa fa-star checked"></span>
-           </div>
          </div>
         </Card.Text>
       </Card.Body>
     </Card>
   </Col>
   <Col className="abtCol">
-    <Card className="centerCard" style={{ width: '80%' }}>
+    <Card className="centerCard technologies" style={{ width: '80%' }}>
       <Card.Body>
         <Card.Title style={{fontSize: '45px'}}>
           Technologies
@@ -97,48 +97,59 @@ function aboutMe(){
             <div className="techItem">Deezer API</div>
             <div className="techItem">Postman</div>
             <div className="techItem">Google Geolocation API</div>
+            <div className="techItem">VSCode</div>
           </div>
         </Card.Text>
       </Card.Body>
     </Card>
   </Col>
   <Col className="abtCol">
-    <Card className="centerCard" style={{ width: '80%' }}>
+    <Card className ="threeStackCard">
       <Card.Body>
-        <Card.Title style={{fontSize: '45px'}}>
-          Who am I?
-        </Card.Title>
-        <Card.Text className="aboutMe">
-       <h3>What I enjoy coding</h3>
-         <ul>
-           <li>Back-end functionality</li>
-           <li>React front-ends</li>
-           <li>Any problem that needs solving, it's like a puzzle to me!</li>
-         </ul>
-       <h3>My Free-Time includes</h3>
-         <ul>
-           <li>Family time, and lots of it</li>
-           <li>Side-Projects
-             <ul>
-               <li>Social Media Landing Page Generator</li>
-               <li>Text based adventure webApp</li>
-             </ul>
-           </li>
-           <li>SoloLearn
-             <ul>
-               <li>C++</li>
-               <li>C#</li>
-               <li>React</li>
-             </ul>
-           </li>
-         </ul>
-       <h3>What I Listen to while I Code</h3>
-       <ul>
-         <li>Run the Jewels</li>
-         <li>Heavy Metal</li>
-         <li>NPR</li>
-       </ul>
+        <Card.Title style={{fontSize: '30px'}}>Hard Skills</Card.Title>
+        <Card.Text>
+          <ul>
+            <li>Full-stack Web Development</li>
+            <li>RESTful Api Integration</li>
+            <li>Database Management</li>
+          </ul>
         </Card.Text>
+      </Card.Body>
+    </Card>
+    <Card className ="threeStackCard">
+      <Card.Body>
+        <Card.Title style={{fontSize: '30px'}}>Soft Skills</Card.Title>
+        <Card.Text>
+          <ul>
+            <li>Agile Worker</li>
+            <li>Attention to detail</li>
+            <li>Fast Learner</li>
+          </ul>
+        </Card.Text>
+      </Card.Body>
+    </Card>
+    <Card className ="threeStackCard">
+      <Card.Body>
+        <Card.Title style={{fontSize: '30px'}}>Experience / Education</Card.Title>
+          <Card.Text>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </Card.Text>
+      </Card.Body>
+    </Card>
+    <Card className ="threeStackCard">
+      <Card.Body>
+        <Card.Title style={{fontSize: '30px'}}>Personal Interests</Card.Title>
+          <Card.Text>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </Card.Text>
       </Card.Body>
     </Card>
   </Col>

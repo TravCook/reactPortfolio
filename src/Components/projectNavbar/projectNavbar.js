@@ -16,13 +16,13 @@ function projectNavbar(){
           <Button href="/work/plbuilder">Playlist Builder</Button>
         </Col>
         <Col>
-          <Button href="/work/plbuilder">StoreFront</Button>
-        </Col>
-        <Col>
           <Button href="/work/celestnav">Celestial Navigator</Button>
         </Col>
         <Col>
           <Button href="/work/campify">Campify</Button>
+        </Col>
+        <Col>
+          <Button href="/work/cliApps">CLI applications</Button>
         </Col>
         <Col lg="3"></Col>
       </Navbar>

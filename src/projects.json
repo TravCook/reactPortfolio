@@ -4,18 +4,18 @@
     "name": "Playlist-Builder",
     "description": "This web-app uses the Deezer music API to allow users to create their own playlists",
     "githublink": "https://noracurcio.github.io/Music-API-Group-Project/",
-    "deployedlink" : "",
-    "link": "https://noracurcio.github.io/Music-API-Group-Project/",
+    "deployedlink" : "https://main.d1qnwgy21nmfej.amplifyapp.com/",
+    "link": "https://main.d1qnwgy21nmfej.amplifyapp.com/",
     "url": "/work/plbuilder"
   },
   {
     "id": 2,
-    "name": "Employee Manager",
+    "name": "CLI applications",
     "description": "This is a simple CLI application which allows users to manage their database of employees through SQL and node.js",
     "githublink": "https://github.com/TravCook/employeeManager",
     "deployedlink" : "",
     "link": "travcook.herokuapp.com",
-    "url": ""
+    "url": "/work/cliApps"
   },
   {
     "id": 3,

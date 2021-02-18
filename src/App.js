@@ -27,7 +27,7 @@ function App(){
             <Route  exact path="/work/plbuilder" component = {LargeViewPl} />
             <Route  exact path="/work/campify" component = {LargeViewCampify} />
             <Route  exact path="/work/celestnav" component = {LargeViewCelest} />
-            {/* <Route  exact path="/work/storefront" component = {} /> */}
+            {/* <Route  exact path="/work/cliApps" component = {} /> */}
             <Route  exact path="/aboutme" component =  {AboutMe}  />
             <Route  exact path="/contact" component ={ ContactMe } />
           </>

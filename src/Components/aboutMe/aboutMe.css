@@ -3,7 +3,8 @@
 }
 .item{
   padding: 15px;
-  font-size: 25px
+  font-size: 25px;
+  text-align: left;
 }
 .listHeader{
   margin: 25px;
@@ -43,4 +44,8 @@
 }
 .aboutMe{
   font-size: 20px;
+}
+.threeStackCard{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
