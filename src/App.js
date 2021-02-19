@@ -12,6 +12,7 @@ import LargeViewPl from "./Components/largeViewPL/largeViewPL"
 import projectNavbar from "./Components/projectNavbar/projectNavbar.js"
 import LargeViewCampify from "./Components/largeViewCampify/largeViewCampify.js"
 import LargeViewCelest from "./Components/largeViewCelest/largeViewCelest.js"
+import LargeViewNoteTaker from "./Components/largeViewNoteTaker/largeViewNoteTaker.js"
 
 function App(){
     return (
@@ -20,6 +21,7 @@ function App(){
         <Route exact path="/work/plbuilder" component = {projectNavbar} />
         <Route exact path="/work/campify" component = {projectNavbar} />
         <Route exact path="/work/celestnav" component = {projectNavbar} />
+        <Route exact path="/work/NoteTaker" component = {projectNavbar} />
         <div className="contianer-fluid app">
           <>
             <Route  exact path="/" component = { LandingCard } />
@@ -27,7 +29,7 @@ function App(){
             <Route  exact path="/work/plbuilder" component = {LargeViewPl} />
             <Route  exact path="/work/campify" component = {LargeViewCampify} />
             <Route  exact path="/work/celestnav" component = {LargeViewCelest} />
-            {/* <Route  exact path="/work/cliApps" component = {} /> */}
+            <Route  exact path="/work/NoteTaker" component = {LargeViewNoteTaker} />
             <Route  exact path="/aboutme" component =  {AboutMe}  />
             <Route  exact path="/contact" component ={ ContactMe } />
           </>

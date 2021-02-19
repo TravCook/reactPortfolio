@@ -10,12 +10,12 @@
   },
   {
     "id": 2,
-    "name": "CLI applications",
-    "description": "This is a simple CLI application which allows users to manage their database of employees through SQL and node.js",
-    "githublink": "https://github.com/TravCook/employeeManager",
+    "name": "Express Note Taker",
+    "description": "This is a simple express app the allows the user to take and save notes through local storage",
+    "githublink": "https://github.com/TravCook/NoteTaker",
     "deployedlink" : "",
-    "link": "travcook.herokuapp.com",
-    "url": "/work/cliApps"
+    "link": "https://quiet-scrubland-07240.herokuapp.com/",
+    "url": "/work/NoteTaker"
   },
   {
     "id": 3,

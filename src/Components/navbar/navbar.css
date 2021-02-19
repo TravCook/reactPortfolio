@@ -2,6 +2,18 @@
   background-color: #0c141f;
   width: 100%;
 }
+.tooltiptext{
+  visibility: hidden;
+  position: absolute;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 20px;
+}
+.fa:hover .tooltiptext{
+  visibility: visible
+}
 .row{
   width: 100%
 }

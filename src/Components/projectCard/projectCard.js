@@ -7,6 +7,7 @@ function ProjectCard(props){
   return(
     <div className="card">
       <iframe className="sShot" src={props.link} alt="live view of current web page"></iframe>
+      <img src={props.image}></img>
       <h1 className="projectName">{props.name}</h1>
       <div>
       <Button rel="noreferrer" className="linkButton Button" target="_blank" href={props.githublink}>Link to Github Repository</Button>

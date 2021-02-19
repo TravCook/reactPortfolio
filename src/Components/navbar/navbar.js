@@ -25,12 +25,12 @@ function Navigation(){
           </DropdownButton> 
         </Col>
         <Col className="mediaButtons">
-          <Button rel="noreferrer" href="https://github.com/travcook" target="_blank" className ="fa fa-github"></Button>
-          <Button rel="noreferrer" href="https://www.linkedin.com/in/travis-cook93/" target="_blank"className ="fa fa-linkedin"></Button>
-          <Button rel="noreferrer" href="https://twitter.com/spillthe_TCook" target="_blank"className ="fa fa-twitter"></Button>
+          <Button rel="noreferrer" href="https://github.com/travcook" target="_blank" className =" fa fa-github"><span class="tooltiptext">My Github</span></Button>
+          <Button rel="noreferrer" href="https://www.linkedin.com/in/travis-cook93/" target="_blank"className =" fa fa-linkedin"><span class="tooltiptext">My Linkedin</span></Button>
+          <Button rel="noreferrer" href="https://mail.google.com/?view=cm&fs=1&to=travismcook93@gmail.com" target="_blank"className =" fa fa-at"><span class="tooltiptext">Email Me</span></Button>
         </Col>
         <Col className="name">
-          Travis M. Cook
+          <a href="/">Travis M. Cook</a>
         </Col>
       </Row>
     </Navbar >

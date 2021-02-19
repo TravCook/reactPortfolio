@@ -22,7 +22,7 @@ function projectNavbar(){
           <Button href="/work/campify">Campify</Button>
         </Col>
         <Col>
-          <Button href="/work/cliApps">CLI applications</Button>
+          <Button href="/work/NoteTaker">Note Taker</Button>
         </Col>
         <Col lg="3"></Col>
       </Navbar>
