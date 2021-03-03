@@ -49,6 +49,7 @@ class largeViewPL extends React.Component{
                   <li>HTML5, Javascript, CSS is what we used to build the main layout and functionality of our site</li>
                   <li>Used the deezer REST api and ajax to make the requests</li>
                   <li>typeit.JS</li>
+                  <li>This app is currently hosted through AWS</li>
                 </ul>
               </Card>
             </Row>

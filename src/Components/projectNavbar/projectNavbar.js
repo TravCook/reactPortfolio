@@ -22,7 +22,7 @@ function projectNavbar(){
           <Button href="/work/campify">Campify</Button>
         </Col>
         <Col>
-          <Button href="/work/NoteTaker">Note Taker</Button>
+          <Button href="/work/DnD">DnD Text Based Adventure</Button>
         </Col>
         <Col lg="3"></Col>
       </Navbar>

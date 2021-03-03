@@ -49,6 +49,7 @@ class largeViewCampify extends React.Component{
                   <li>Calandar.io</li>
                   <li>RIDB API was used for search query data</li>
                   <li>mySQL for database management</li>
+                  <li>Hosted on Heroku</li>
                 </ul>
               </Card>
             </Row>

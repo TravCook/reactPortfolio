@@ -10,12 +10,12 @@
   },
   {
     "id": 2,
-    "name": "Express Note Taker",
-    "description": "This is a simple express app the allows the user to take and save notes through local storage",
-    "githublink": "https://github.com/TravCook/NoteTaker",
+    "name": "DnD 5e Solo",
+    "description": "This is an in-progress app that I am building that will allow users to create DND fifth edition characters, and then take those characters through self contained one-shot adventures without the need to get a group of friends together or have someone DM the adventure.",
+    "githublink": "https://github.com/TravCook/DnDTextBased",
     "deployedlink" : "",
-    "link": "https://quiet-scrubland-07240.herokuapp.com/",
-    "url": "/work/NoteTaker"
+    "link": "https://master.dwzbncuypmxxc.amplifyapp.com/",
+    "url": "/work/DnD"
   },
   {
     "id": 3,

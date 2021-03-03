@@ -20,11 +20,11 @@ class largeViewCelest extends React.Component{
           </Col>
           <Col className="infoCol">
             <Row>
-              <Card>
+              <Card className="width">
               <h1>Project Description</h1>
               <p>{this.state.projectArr[2].description}</p>
               </Card>
-              <Card>
+              <Card className="width">
                 <h1>Project Contributions</h1>
                 <ul>
                   <li>My main work was on UI and UX for the app as well as the navbar and routing</li>
@@ -33,7 +33,7 @@ class largeViewCelest extends React.Component{
                   <li>Connected the journal display to the backend mongoDB</li>
                 </ul>
               </Card>
-              <Card>
+              <Card className="width">
                 <h1>Contributors</h1>
                 <ul>
                   <li>Mark Brazee (github: https://github.com/MarkBrazee)</li>
@@ -43,12 +43,13 @@ class largeViewCelest extends React.Component{
                   <li>Brendon Hart (github: https://github.com/hartbt)</li>
                 </ul>
               </Card>
-              <Card>
+              <Card className="width">
                 <h1>Technologies Utilised</h1>
                 <ul>
                   <li>Our UI for the site is built on React, with underlying Javascript</li>
                   <li>Used a combination of CSS and SASS for our styling, along with react-bootstrap</li>
                   <li>MongoDB backend for storing user profiles and journal entries</li>
+                  <li>This app is currently hosted through Heroku</li>
                 </ul>
               </Card>
             </Row>
