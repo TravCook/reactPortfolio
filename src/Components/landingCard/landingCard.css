@@ -31,8 +31,12 @@
     height: 100%;
     width: 80%
   }
+  .picture{
+    width: 100px
+  }
   .descriptionText{
     font-size: 22px;
+    width: 100%
   }
   .workButton{
     width: 100%
